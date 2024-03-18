@@ -10,9 +10,9 @@ app.get('/',(req,res)=>{
 app.post('/bfhl', (req, res) => {
   try {
     const data = req.body.data;
-    const user_id = "Himanshu_2110990614";  
-    const email = "himanshu0614.be21@chitkara.edu.in";  
-    const roll_number = "2110990614";
+    const user_id = "abhinav_200902004";  
+    const email = "abhinav0045.be21@chitkara.edu.in";  
+    const roll_number = "2110990045";
     const even_numbers = data.filter(num => num % 2 === 0);
     const odd_numbers = data.filter(num => num % 2 !== 0);
     const alphabets = data.filter(char => isNaN(char)).map(char => char.toUpperCase());
